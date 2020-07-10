@@ -1,1 +1,102 @@
-// Empty
+[
+  {
+    "metadata": {
+      "id": "2be7cf14-2603-402e-9771-fd79df83cdf8",
+      "publisherId": "twxs.cmake",
+      "publisherDisplayName": "twxs"
+    },
+    "name": "cmake",
+    "publisher": "twxs",
+    "version": "0.0.17"
+  },
+  {
+    "metadata": {
+      "id": "e337c67b-55c2-4fef-8949-eb260e7fb7fd",
+      "publisherId": "Shan.code-settings-sync",
+      "publisherDisplayName": "Shan"
+    },
+    "name": "code-settings-sync",
+    "publisher": "Shan",
+    "version": "3.4.3"
+  },
+  {
+    "metadata": {
+      "id": "690b692e-e8a9-493f-b802-8089d50ac1b2",
+      "publisherId": "ms-vscode.cpptools",
+      "publisherDisplayName": "ms-vscode"
+    },
+    "name": "cpptools",
+    "publisher": "ms-vscode",
+    "version": "0.27.1"
+  },
+  {
+    "metadata": {
+      "id": "038dd41f-4a41-48e3-87de-ab2ea4310780",
+      "publisherId": "julialang.language-julia",
+      "publisherDisplayName": "julialang"
+    },
+    "name": "language-julia",
+    "publisher": "julialang",
+    "version": "0.13.1"
+  },
+  {
+    "metadata": {
+      "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+      "publisherId": "ms-python.python",
+      "publisherDisplayName": "ms-python"
+    },
+    "name": "python",
+    "publisher": "ms-python",
+    "version": "2019.10.41019"
+  },
+  {
+    "metadata": {
+      "id": "75da638c-c45a-44ea-aa3b-8570a3559810",
+      "publisherId": "TabNine.tabnine-vscode",
+      "publisherDisplayName": "TabNine"
+    },
+    "name": "tabnine-vscode",
+    "publisher": "TabNine",
+    "version": "2.8.6"
+  },
+  {
+    "metadata": {
+      "id": "e2c479df-2c90-4915-9015-595ef0d79bd5",
+      "publisherId": "ms-vsts.team",
+      "publisherDisplayName": "ms-vsts"
+    },
+    "name": "team",
+    "publisher": "ms-vsts",
+    "version": "1.161.0"
+  },
+  {
+    "metadata": {
+      "id": "d96e79c6-8b25-4be3-8545-0e0ecefcae03",
+      "publisherId": "vscodevim.vim",
+      "publisherDisplayName": "vscodevim"
+    },
+    "name": "vim",
+    "publisher": "vscodevim",
+    "version": "1.14.5"
+  },
+  {
+    "metadata": {
+      "id": "561483af-12d7-46c5-aab0-1e8c1bd28fe0",
+      "publisherId": "kriegalex.vscode-cudacpp",
+      "publisherDisplayName": "kriegalex"
+    },
+    "name": "vscode-cudacpp",
+    "publisher": "kriegalex",
+    "version": "0.1.1"
+  },
+  {
+    "metadata": {
+      "id": "2061917f-f76a-458a-8da9-f162de22b97e",
+      "publisherId": "redhat.vscode-yaml",
+      "publisherDisplayName": "redhat"
+    },
+    "name": "vscode-yaml",
+    "publisher": "redhat",
+    "version": "0.8.0"
+  }
+]

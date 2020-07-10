@@ -1,1 +1,175 @@
-// Empty
+{
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.visualstar": true,
+    "vim.ignorecase": false,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["k","j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>","s", "f"],
+        "commands": ["workbench.action.findInFiles"]
+      },
+      {
+        "before": ["<leader>","s", "s"],
+        "commands": ["actions.find"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>","s", "F"],
+        "commands": ["workbench.action.findInFiles"]
+      },
+      {
+        "before": ["<leader>","f", "p"],
+        "commands": ["workbench.action.files.copyPathOfActiveFile"]
+      },
+      {
+        "before": ["<leader>","f", "n"],
+        "commands": ["copyRelativeFilePath"]
+      },
+      {
+        "before": ["<leader>","t", "p"],
+        "commands": ["workbench.action.togglePanel"]
+      },
+      {
+        "before": ["<leader>","x", "m"],
+        "commands": ["workbench.action.showCommands"]
+      },
+      {
+        "before": ["<leader>","t", "a"],
+        "commands": ["workbench.action.toggleActivityBarVisibility"]
+      },
+      {
+        "before": ["<leader>","0"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+      },
+      {
+        "before": ["<leader>","1"],
+        "commands": [" workbench.action.focusFirstEditorGroup "]
+      },
+      {
+        "before": ["<leader>","2"],
+        "commands": ["workbench.action.focusSecondEditorGroup"]
+      },
+      {
+        "before": ["<leader>","3"],
+        "commands": ["workbench.action.focusThirdEditorGroup"]
+      },
+      {
+        "before": ["<leader>","4"],
+        "commands": ["workbench.action.focusFourthEditorGroup"]
+      },
+      {
+        "before": ["<leader>","x", "s"],
+        "commands": ["workbench.action.files.save"]
+      },
+      {
+        "before": ["<leader>","s", "s"],
+        "commands": ["actions.find"]
+      },
+      {
+        "before": ["<leader>","f", "f"],
+        "commands": ["workbench.action.files.openFile"]
+      },
+      {
+        "before": ["<leader>", "w", "d"],
+        "commands": ["workbench.action.closeActiveEditor"]
+      },
+      {
+        "before": ["<leader>", "w", "s"],
+        "commands": ["workbench.action.splitEditorDown"]
+      },
+      {
+        "before": ["<leader>", "w", "v"],
+        "commands": ["workbench.action.splitEditorRight"]
+      },
+      {
+        "before": ["<leader>","f", "r"],
+        "commands": ["workbench.action.openRecent"]
+      },
+      {
+        "before": ["<leader>","k", "k"],
+        "commands": ["workbench.action.quickOpen"]
+      },
+      {
+        "before": ["<leader>","i", "i"],
+        "commands": ["workbench.action.gotoSymbol"]
+      },
+      {
+        "before": ["<leader>","x", "1"],
+        "commands": ["workbench.action.editorLayoutSingle"]
+      },
+      {
+        "before": ["<leader>","x", "3"],
+        "commands": ["workbench.action.splitEditorRight"]
+      },
+      {
+        "before": ["<leader>","x", "2"],
+        "commands": ["workbench.action.splitEditorDown"]
+      },
+      {
+        "before": ["<leader>","x", "4"],
+        "commands": ["workbench.action.editorLayoutTwoByTwoGrid"]
+      },
+      {
+        "before": ["<leader>","x", "0"],
+        "commands": ["workbench.action.closeGroup"]
+      },
+      {
+        "before": ["<leader>","t", "t"],
+        "commands": ["workbench.action.terminal.toggleTerminal"]
+      },
+      {
+        "before": ["<leader>","t", "z"],
+        "commands": ["workbench.action.toggleZenMode"]
+      },
+      {
+        "before": ["<leader>","w", "q"],
+        "after": [":wq"],
+      }
+    ],
+    "vim.handleKeys":{
+      "<C-a>": false,
+    },
+    "zenMode.centerLayout": false,
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "search.exclude": {
+      "**/.git": true,
+    },
+    "search.useGlobalIgnoreFiles": true,
+    "search.useIgnoreFiles": false,
+    "search.location": "panel",
+    // "workbench.activityBar.visible": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.statusBar.visible": true,
+     "workbench.editor.tabSizing": "shrink",
+    "editor.renderControlCharacters": false,
+    "terminal.integrated.cwd": "${fileDirname}",
+    "gerrit-view.server": "192.168.2.139:8080",
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.fontSize": 12,
+    "editor.renderWhitespace": "boundary",
+    "editor.lineNumbersMinChars": 1,
+    "editor.glyphMargin": false,
+    "editor.folding": false,
+    "http.proxySupport": "off",
+    "tabnine.experimentalAutoImports": true,
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceDownload": false,
+    "sync.forceUpload": false,
+    "sync.gist": "",
+    "sync.removeExtensions": false,
+  }
+  
